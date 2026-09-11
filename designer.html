@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designers | Havenly</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="Havenly home">HAVENLY</a>
+
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="styles.html">Styles</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="index.html#design-your-room">Design Your Room</a></li>
+            <li><a href="designer.html" class="current">Designers</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="nav-icon" aria-label="Search">⌕</a>
+          <a href="wishlist.html" class="nav-icon" aria-label="Wishlist">♡</a>
+          <a href="cart.html" class="nav-icon" aria-label="Cart">🛒</a>
+          <a href="profile.html" class="nav-icon" aria-label="Profile">◉</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-shell">
+          <div class="hero-info">
+            <span class="eyebrow">Professional Guidance</span>
+            <h1 class="page-title">Your Space, Professionally Designed</h1>
+            <p class="section-subtitle">
+              Book a consultation with one of our expert designers and turn your home goals into a beautifully tailored plan.
+            </p>
+            <div class="page-badges">
+              <span>Virtual Consultations</span>
+              <span>Room Plans</span>
+              <span>Styling Guidance</span>
+            </div>
+          </div>
+
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80" alt="Designer planning a home makeover" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">How It Works</span>
+              <h2>The Consultation Process</h2>
+            </div>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <div class="step-number">01</div>
+              <h3>Tell Us About Your Space</h3>
+              <p>Share your room, style preferences, budget, and what matters most in the way you live.</p>
+            </article>
+
+            <article class="step-card">
+              <div class="step-number">02</div>
+              <h3>Meet Your Designer</h3>
+              <p>Connect with a Havenly expert who understands your lifestyle, tastes, and goals.</p>
+            </article>
+
+            <article class="step-card">
+              <div class="step-number">03</div>
+              <h3>Receive Your Design</h3>
+              <p>Get a curated plan with room recommendations, products, and styling direction.</p>
+            </article>
+
+            <article class="step-card">
+              <div class="step-number">04</div>
+              <h3>Bring It Home</h3>
+              <p>Use your plan to shop, style, and enjoy a home that feels beautifully finished.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="designer-spotlight">
+            <div>
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="Emma Rowan profile portrait" />
+            </div>
+            <div>
+              <span class="eyebrow">Featured Designer</span>
+              <h2>Emma Rowan</h2>
+              <p>
+                Emma specializes in warm, modern interiors that blend characterful layering with effortless functionality.
+              </p>
+              <p>Known for transforming compact urban homes into nothing short of sanctuaries.</p>
+              <div class="designer-meta">
+                <span>8 years experience</span>
+                <span class="rating">★ 4.9</span>
+              </div>
+              <div class="page-cta">
+                <a href="#booking-form" class="btn btn-primary btn-arrow">Book Consultation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="booking-form">
+        <div class="container">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">Book A Consultation</span>
+              <h2>Request Your Design Session</h2>
+            </div>
+          </div>
+
+          <form class="booking-form">
+            <div class="form-two-col">
+              <div class="field">
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" name="full-name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" type="tel" name="phone" />
+              </div>
+              <div class="field">
+                <label for="room-type">Room Type</label>
+                <select id="room-type" name="room-type">
+                  <option>Living Room</option>
+                  <option>Bedroom</option>
+                  <option>Kitchen</option>
+                  <option>Workspace</option>
+                  <option>Bathroom</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="preferred-style">Preferred Style</label>
+                <select id="preferred-style" name="preferred-style">
+                  <option>Modern</option>
+                  <option>Minimal</option>
+                  <option>Luxury</option>
+                  <option>Bohemian</option>
+                  <option>Traditional</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="budget-range">Budget Range</label>
+                <select id="budget-range" name="budget-range">
+                  <option>$500 - $1,000</option>
+                  <option>$1,000 - $2,500</option>
+                  <option>$2,500 - $5,000</option>
+                  <option>$5,000+</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="consultation-date">Consultation Date</label>
+                <input id="consultation-date" type="date" name="consultation-date" />
+              </div>
+              <div class="field">
+                <label for="budget-range">Preferred Time</label>
+                <select id="preferred-time" name="preferred-time">
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your vision, timeline, and must-have details."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-arrow">Book My Consultation</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">HAVENLY</div>
+            <p>Thoughtful interiors, curated products, and joyful living — beautifully designed for everyday life.</p>
+          </div>
+
+          <div>
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="rooms.html">Rooms</a></li>
+              <li><a href="styles.html">Styles</a></li>
+              <li><a href="products.html">Shop</a></li>
+              <li><a href="designer.html">Designers</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Customer Care</h4>
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Follow Us</h4>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Pinterest</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">© 2026 Havenly. Designed for beautiful living.</div>
+      </div>
+    </footer>
+  </body>
+</html>

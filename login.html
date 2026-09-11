@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Havenly</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand" aria-label="Havenly home">HAVENLY</a>
+
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rooms.html">Rooms</a></li>
+            <li><a href="styles.html">Styles</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="index.html#design-your-room">Design Your Room</a></li>
+            <li><a href="designer.html">Designers</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#" class="nav-icon" aria-label="Search">⌕</a>
+          <a href="wishlist.html" class="nav-icon" aria-label="Wishlist">♡</a>
+          <a href="cart.html" class="nav-icon" aria-label="Cart">🛒</a>
+          <a href="profile.html" class="nav-icon" aria-label="Profile">◉</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="auth-layout">
+        <div class="auth-visual">
+          <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80" alt="Luxury interior with warm sunlight" />
+          <div class="auth-overlay">
+            <div class="auth-overlay-content">
+              <h2>Welcome back home.</h2>
+              <p>“Beautiful spaces should feel as good as they look.”</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="auth-panel">
+          <div class="auth-box">
+            <div class="auth-header">
+              <div class="brand">HAVENLY</div>
+              <h1>Welcome Back</h1>
+            </div>
+
+            <form aria-label="Login form">
+              <fieldset class="form-grid">
+                <legend class="sr-only">Sign in</legend>
+
+                <div class="field">
+                  <label for="login-email">Email</label>
+                  <input id="login-email" type="email" name="email" />
+                </div>
+
+                <div class="field">
+                  <label for="login-password">Password</label>
+                  <input id="login-password" type="password" name="password" />
+                </div>
+
+                <div class="form-links">
+                  <label class="checkbox-row">
+                    <input type="checkbox" name="remember" />
+                    <span>Remember Me</span>
+                  </label>
+                  <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Sign In</button>
+              </fieldset>
+            </form>
+
+            <div class="form-divider">OR</div>
+
+            <button type="button" class="google-btn">
+              <span class="google-mark">G</span>
+              Continue with Google
+            </button>
+
+            <div class="auth-footer">
+              <p>New to Havenly? <a href="signup.html">Create an account</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
