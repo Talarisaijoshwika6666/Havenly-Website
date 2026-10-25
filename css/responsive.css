@@ -44,6 +44,10 @@
         padding: 16px 0;
     }
 
+    .navbar nav {
+        min-width: 0;
+    }
+
     .nav-links {
         order: 3;
         width: 100%;

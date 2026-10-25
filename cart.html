@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/pages.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+      <link rel="stylesheet" href="css/ai.css" />
   </head>
-  <body>
+  <body class="app-page cart-page">
     <header class="site-header">
       <div class="container navbar">
         <a href="index.html" class="brand" aria-label="Havenly home">HAVENLY</a>
@@ -19,12 +20,14 @@
             <li><a href="rooms.html">Rooms</a></li>
             <li><a href="styles.html">Styles</a></li>
             <li><a href="products.html">Shop</a></li>
-            <li><a href="index.html#design-your-room">Design Your Room</a></li>
+            <li><a href="ai-studio.html">Design Your Room</a></li>
+            <li><a href="ai-studio.html">AI Studio</a></li>
             <li><a href="designer.html">Designers</a></li>
           </ul>
         </nav>
 
         <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle theme">◐</button>
           <a href="#" class="nav-icon" aria-label="Search">⌕</a>
           <a href="wishlist.html" class="nav-icon" aria-label="Wishlist">♡</a>
           <a href="cart.html" class="nav-icon" aria-label="Cart">🛒</a>
@@ -33,7 +36,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="app-main app-screen">
       <section class="page-hero">
         <div class="container page-hero-shell">
           <div class="hero-info">
@@ -125,7 +128,8 @@
               <span>Estimated Total</span>
               <span>$2,080</span>
             </div>
-            <a href="#" class="btn btn-primary btn-arrow">Checkout</a>
+            <a href="products.html" class="btn btn-secondary">Continue Shopping</a>
+            <a href="checkout.html" class="btn btn-primary btn-arrow">Checkout →</a>
           </aside>
         </div>
       </section>
@@ -172,5 +176,7 @@
         <div class="footer-bottom">© 2026 Havenly. Designed for beautiful living.</div>
       </div>
     </footer>
-  </body>
+  <button class="ai-fab" aria-label="Open Havenly AI Assistant">✦</button><aside class="ai-chat" aria-label="Havenly AI Assistant"><div class="ai-chat-head">✦ Havenly AI Designer</div><div class="ai-chat-body"><div class="ai-msg">Hi! Tell me your room, style, colour mood or budget.</div></div><form class="ai-chat-form"><input aria-label="Ask Havenly AI" placeholder="e.g. Modern bedroom under ₹50,000" required><button class="btn btn-primary btn-small">Ask</button></form></aside>
+<script src="js/main.js"></script>
+</body>
 </html>
